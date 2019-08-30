@@ -27,8 +27,8 @@ import java.util.Map;
 public class LongestSubstring {
     public static void main(String[] args) {
         LongestSubstring solution = new LongestSubstring();
-        // String s1 = "abcabcbb";
-        // String s2 = "bbbbb";
+        String s1 = "abcabcbb";
+        String s2 = "bbbbb";
         String s3 = "pwwkew";
         String s4 = " ";
 
