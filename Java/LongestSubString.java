@@ -24,9 +24,9 @@ import java.util.Map;
  * Tag： 字符串 匹配
  * 解法：滑动窗口
  */
-public class LongestSubstring {
+public class LongestSubString {
     public static void main(String[] args) {
-        LongestSubstring solution = new LongestSubstring();
+        LongestSubString solution = new LongestSubString();
         String s1 = "abcabcbb";
         String s2 = "bbbbb";
         String s3 = "pwwkew";
