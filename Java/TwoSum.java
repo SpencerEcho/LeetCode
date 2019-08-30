@@ -10,6 +10,12 @@ import java.util.HashMap;
 // Because nums[0] + nums[1] = 2 + 7 = 9,
 // return [0, 1].
 
+/** 
+ * 类型：数组
+ * 解法提示：循环、hashmap
+ * 
+ * 注意：用hashmap时，要边存边查，而不能一股脑的将数字全部存入hashmap，因为会造成后面的数覆盖前面的（数组出现两个相同数时会出错）
+*/
 public class TwoSum {
     public static void main(String[] args) {
         TwoSum twoSum = new TwoSum();
@@ -53,9 +59,4 @@ public class TwoSum {
         }
         return null;
     }
-
-    /** 
-     * 类型：数组
-     * 解法提示：循环、hashmap
-    */
 }
